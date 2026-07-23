@@ -1,0 +1,47 @@
+body{
+  background: #000;
+}
+.about-page {
+  margin-top: 50px;
+  padding: 50px 20px;
+  background: #111;
+  min-height: 100vh;
+}
+
+.about-page h1 {
+  color: #D92B2B;
+  font-size: 2rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+}
+/*.about-page h1:hover{
+  color:#D92B2B;
+}*/
+
+.about-page p {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  max-width: 700px;
+}
+
+.about-signature {
+  margin-top: 30px;
+  border-top: 2px solid #D92B2B;
+  padding-top: 15px;
+}
+
+.about-signature p {
+  color: #D92B2B;
+  font-weight: 700;
+  font-style: italic;
+}
+
+@media (min-width: 768px) {
+  .about-page p {
+    font-size: 1.1rem;
+  }
+}
